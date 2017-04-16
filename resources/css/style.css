@@ -1,0 +1,21 @@
+header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+nav a{
+  color: #000;
+  padding: 20px 10px;
+}
+nav{
+  display: flex;
+  padding-right: 40px;
+  align-items: center;
+}
+.logo{
+  display: flex;
+}

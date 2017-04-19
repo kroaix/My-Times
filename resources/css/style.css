@@ -1,21 +1,152 @@
+
+body{
+  font-size: 17px;
+  font-family: Georgia;
+}
+h2{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: normal;
+}
 header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid #000;
-  display: inline-flex;
-  width: 100%;
-  justify-content: space-between;
-}
-nav a{
-  color: #000;
-  padding: 20px 10px;
-}
-nav{
-  display: flex;
-  padding-right: 40px;
-  align-items: center;
+  top: 0px;
 }
 .logo{
   display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 30px;
+}
+.logo img{
+  margin-right: 12px;
+}
+.logo span{
+  color: Aquamarine;
+}
+header nav{
+  padding-right: 40px;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+a{
+  color: #000;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 78px auto;
+  padding-top: 80px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
+.image-content{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+  text-align: center;
+}
+.lead-story .image-content{
+  background: url('../images/img-story-main.png');
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+.cat-ceo.image-content{
+  background: url('../images/img-story-1.png');
+}
+.fall-cancelled.image-content{
+  background: url('../images/img-story-2.png');
+}
+.pop-culture.image-content{
+  background: url('../images/img-story-3.png');
+}
+.stories .text-content{
+  height: 250px;
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.narrative{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 16px;
+}
+.news-bites h3{
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.news-bites .bite{
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid #000;
+  background: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: dimgray;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  bottom: 0;
+}
+footer .title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid #FFF;
+}
+footer nav{
+  display: inline-block;
+  padding-left: 25px;
 }
